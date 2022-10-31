@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/index.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <script src="index.js"></script>
+    </head>
+    <body onload = "javascript:hover();">
+        <form id = "forma" method = "post" action = "javascript:newMenuItem();">
+            <textarea id = "textField" placeholder="Введите текст"></textarea>
+            <br>
+            <select id = "textAreaColor" >
+                <option disabled selected>Выберите цвет фона</option>
+                <option id = "firstColor" value = "#FFAFD2">Розовый</option>
+                <option id = "secondColor" value = "#6A5ACD">Фиолетовый</option>
+                <option id = "thirdColor" value = "#AFD9FF">Голубой</option>
+                <option id = "forthColor" value = "#00CED1">Бирюзовый</option>
+                <option id = "fifthColor" value = "#FDFFAF">Желтый</option>               
+            </select>
+            <br>
+            <nav class = "menu" id = "menu">
+                <a href = "1.html" target="_blank"><div class = "menuItem" value = "1">Шаг 1</div></a>
+                <a href = "2.html" target="_blank"><div class = "menuItem">Шаг 2</div></a>
+                <a href = "3.html" target="_blank"><div class = "menuItem">Шаг 3</div></a>
+                <a href = "4.html" target="_blank"><div class = "menuItem">Шаг 4</div></a>
+            </nav>
+        
+            <input type = "submit" class = "button" value="Добавить">
+        </form>
+    </body>
+</html>
